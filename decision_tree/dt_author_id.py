@@ -38,8 +38,8 @@ from sklearn.metrics import accuracy_score
 pred = clf.predict(features_test)
 print "predicting time:", round(time()-t1, 3), "s"
 print 'accuracy =',round(accuracy_score(pred, labels_test),5);
-# Entropy - accuracy = 0.993174061433
-#Gini - accuracy = 0.990329920364
+# With Entropy - accuracy = 0.993174061433
+# With Gini -    accuracy = 0.990329920364
 #########################################################
 #OUTPUT with 1% features
 # no. of Chris training emails: 7936
